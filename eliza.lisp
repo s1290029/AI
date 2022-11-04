@@ -1,5 +1,7 @@
 (defconstant fail nil)
 
+(defconstant no-bindings '((T . T)))
+
 (defun eliza ()
   (loop
     (print 'eliza>)
